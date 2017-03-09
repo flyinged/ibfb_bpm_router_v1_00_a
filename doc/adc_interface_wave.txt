@@ -1,0 +1,37 @@
+{{
+  head:{
+   text:'IBFB Cavity BPM ADC Interface',
+  }, //end of head
+  signal: [
+ // ['ADC CLOCK',
+  {name: 'i_clk',           wave: 'p...............'},
+//  {name: 's',               wave: '=.===============', data: ["0","1","2","3","0","1","2","3","0","1","2","3","0","1","2","3"]},
+//  {name: 'next_s',          wave: '01..............'},
+//  {name: 'valid',           wave: '01..............'},
+//  {name: 'sop',             wave: '010..10..10..10.'},
+//  {name: 'ctrl',            wave: 'x.=...=...=...=.', data: ["c0","c1","c2","c3","c4","c5","c6","c7","c8","c9"]},
+//    {name: 'bpm',             wave: 'x.=...=...=...=.', data: ["b0","b1","b2","b3","b4","b5","b6","b7","b8","b9"], node: '..a'},
+//    {name: 'bpm_mask',        wave: 'x..=...=...=...=', data: ["M0","M1","M2","M3"], node: '...b'},
+//  {name: 'bucket',          wave: 'x..=...=...=...=', data: ["k0","k1","k2","k3","k4","k5","k6","k7","k8","k9"]},
+//  {name: 'flag_addr',       wave: 'x..=...=...=...=', data: ["a0","a1","a2","a3"]},
+//  {name: 'flag_v',          wave: 'x...=...=...=...=', data: ["f0","f1","f2","f3"]},
+//  {name: 'flag_m',          wave: 'x...=..x=..x=..x=', data: ["fm0","fm1","fm2","fm3"]},
+//  {name: 'flag',            wave: 'x.x.=..x=..x=..x='},
+//  {name: 'off_range',       wave: 'x...=...=...=...='},
+  {name: 's',               wave: '=.===============', data: ["0","1","2","3","0","1","2","3","0","1","2","3","0","1","2","3"]},
+  {name: 'pkt_valid',       wave: '0...10..10..10..'},
+  {name: 'pkt_discard_x',   wave: '0...=0..=0..=0..'},
+  {name: 'pkt_discard_y',   wave: '0...=0..=0..=0..'},
+  {name: 'ovalid',          wave: '01..............'},
+  {name: 'oreg_full_x',     wave: '0.1.............'},
+  {name: 'oreg_full_y',     wave: '0.1.............'},
+  {name: 'oreg_free_x',     wave: '1.0.............'},
+  {name: 'oreg_free_y',     wave: '1.0.............'},
+  {name: 'i_output_next_x', wave: '0.1...........'},
+  {name: 'i_output_next_x', wave: '0....1........'},
+//   ],
+  ], // end of signal
+    edge : [
+    'a~>b',
+  ]
+} //top

@@ -1,0 +1,714 @@
+# Reading C:/modeltech64_10.2b/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2b May 17 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/modelsim/ibfb_bpm_router.mpf 
+# Loading project ibfb_bpm_router
+run_rout_stress.do
+# couldn't execute ".\run_rout_stress.do": no such file or directory
+pwd
+# C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/modelsim
+do run_rout_stress.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity RX_SYNC
+# -- Compiling architecture RTL of RX_SYNC
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package virtex5_gtx_package
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling entity gtx_tile
+# -- Compiling architecture struct of gtx_tile
+# -- Loading package VCOMPONENTS
+# -- Compiling entity mgt_virtex5_gtx
+# -- Compiling architecture structural of mgt_virtex5_gtx
+# -- Compiling entity mgt_32bit_fifo
+# -- Compiling architecture structural of mgt_32bit_fifo
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture pkt_buf of ibfb_packet_router
+# -- Compiling architecture no_pkt_buf of ibfb_packet_router
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity ibfb_gtx_tile
+# -- Compiling architecture struct of ibfb_gtx_tile
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_router_stress_tb
+# -- Compiling architecture test of ibfb_router_stress_tb
+# -- Loading entity ibfb_packet_router
+# vsim -gui -t ps -novopt work.ibfb_router_stress_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.virtex5_gtx_package
+# Loading work.ibfb_comm_package
+# Loading work.ibfb_router_stress_tb(test)
+# Loading work.throughput_meter(behav)
+# Loading work.ibfb_packet_router(pkt_buf)
+# Loading work.ibfb_packet_buffer(rtl)
+# hexadecimal
+run 1 ms
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(2)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(2)/PKT_BUF_I
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(1)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(1)/PKT_BUF_I
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(0)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(0)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(0)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(1)/PKT_BUF_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /ibfb_router_stress_tb/ROUTER/ICHAN_G(2)/PKT_BUF_I
+run
+do run_rout_stress.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity RX_SYNC
+# -- Compiling architecture RTL of RX_SYNC
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package virtex5_gtx_package
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling entity gtx_tile
+# -- Compiling architecture struct of gtx_tile
+# -- Loading package VCOMPONENTS
+# -- Compiling entity mgt_virtex5_gtx
+# -- Compiling architecture structural of mgt_virtex5_gtx
+# -- Compiling entity mgt_32bit_fifo
+# -- Compiling architecture structural of mgt_32bit_fifo
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture pkt_buf of ibfb_packet_router
+# -- Compiling architecture no_pkt_buf of ibfb_packet_router
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity ibfb_gtx_tile
+# -- Compiling architecture struct of ibfb_gtx_tile
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_router_stress_tb
+# -- Compiling architecture test of ibfb_router_stress_tb
+# -- Loading entity ibfb_packet_router
+# vsim -gui -t ps -novopt work.ibfb_router_stress_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.virtex5_gtx_package
+# Loading work.ibfb_comm_package
+# Loading work.ibfb_router_stress_tb(test)
+# Loading work.throughput_meter(behav)
+# ** Error: (vsim-3170) Could not find 'C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/modelsim/work.ibfb_packet_router(pkt_nobuf)'.
+# 
+# Load interrupted
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./run_rout_stress.do PAUSED at line 9
+do run_rout_stress.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity RX_SYNC
+# -- Compiling architecture RTL of RX_SYNC
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package virtex5_gtx_package
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling entity gtx_tile
+# -- Compiling architecture struct of gtx_tile
+# -- Loading package VCOMPONENTS
+# -- Compiling entity mgt_virtex5_gtx
+# -- Compiling architecture structural of mgt_virtex5_gtx
+# -- Compiling entity mgt_32bit_fifo
+# -- Compiling architecture structural of mgt_32bit_fifo
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture pkt_buf of ibfb_packet_router
+# -- Compiling architecture no_pkt_buf of ibfb_packet_router
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity ibfb_gtx_tile
+# -- Compiling architecture struct of ibfb_gtx_tile
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_router_stress_tb
+# -- Compiling architecture test of ibfb_router_stress_tb
+# -- Loading entity ibfb_packet_router
+# vsim -gui -t ps -novopt work.ibfb_router_stress_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.virtex5_gtx_package
+# Loading work.ibfb_comm_package
+# Loading work.ibfb_router_stress_tb(test)
+# Loading work.throughput_meter(behav)
+# Loading work.ibfb_packet_router(no_pkt_buf)
+# hexadecimal
+run 1 ms
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(1)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /ibfb_router_stress_tb/GEN_TXDATA(0)
+run
+do run.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity RX_SYNC
+# -- Compiling architecture RTL of RX_SYNC
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package virtex5_gtx_package
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling entity gtx_tile
+# -- Compiling architecture struct of gtx_tile
+# -- Loading package VCOMPONENTS
+# -- Compiling entity mgt_virtex5_gtx
+# -- Compiling architecture structural of mgt_virtex5_gtx
+# -- Compiling entity mgt_32bit_fifo
+# -- Compiling architecture structural of mgt_32bit_fifo
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture pkt_buf of ibfb_packet_router
+# -- Compiling architecture no_pkt_buf of ibfb_packet_router
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity ibfb_gtx_tile
+# -- Compiling architecture struct of ibfb_gtx_tile
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# ** Error: C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/hdl/vhdl/cav_bpm_interface.vhd(10): Library ibfb_common_v1_00_a not found.
+# ** Error: C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/hdl/vhdl/cav_bpm_interface.vhd(11): (vcom-1136) Unknown identifier "ibfb_common_v1_00_a".
+# 
+# ** Error: C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/hdl/vhdl/cav_bpm_interface.vhd(13): VHDL Compiler exiting
+# ** Error: C:/modeltech64_10.2b/win64/vcom failed.
+# Error in macro ./run.do line 5
+# C:/modeltech64_10.2b/win64/vcom failed.
+#     while executing
+# "vcom -work work -2002 -explicit -novopt C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_bpm_router_v1_00_a/hdl/vhdl/cav_bpm_interface...."
+do run.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# ** Error: (vcom-19) Failed to access library 'ibfb_common_v1_00_a' at "ibfb_common_v1_00_a".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/modeltech64_10.2b/win64/vcom failed.
+# Error in macro ./run.do line 1
+# C:/modeltech64_10.2b/win64/vcom failed.
+#     while executing
+# "vcom -work ibfb_common_v1_00_a -2002 -explicit -novopt C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_common_v1_00_a/hdl/vhdl/pkg_crc..."
+vlib
+# Usage: vlib -help
+#        vlib [-short | -dos | -long | -unix ]
+#             [-type (directory|archive|flat)]
+#             [-unnamed_designs <count>] [(-lock|-unlock) <design>]
+#             [-locklib|-unlocklib] <library_name>
+blib help
+# invalid command name "blib"
+vlib help
+vlib -help
+# Usage: vlib -help
+#        vlib [-short | -dos | -long | -unix ]
+#             [-type (directory|archive|flat)]
+#             [-unnamed_designs <count>] [(-lock|-unlock) <design>]
+#             [-locklib|-unlocklib] <library_name>
+vdel -all -lib help
+vlib ibfb_common_v1_00_a
+do run.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Compiling entity RX_SYNC
+# -- Compiling architecture RTL of RX_SYNC
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package virtex5_gtx_package
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling entity gtx_tile
+# -- Compiling architecture struct of gtx_tile
+# -- Loading package VCOMPONENTS
+# -- Compiling entity mgt_virtex5_gtx
+# -- Compiling architecture structural of mgt_virtex5_gtx
+# -- Compiling entity mgt_32bit_fifo
+# -- Compiling architecture structural of mgt_32bit_fifo
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package virtex5_gtx_package
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture pkt_buf of ibfb_packet_router
+# -- Compiling architecture no_pkt_buf of ibfb_packet_router
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity ibfb_gtx_tile
+# -- Compiling architecture struct of ibfb_gtx_tile
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity cav_bpm_interface
+# -- Compiling architecture rtl of cav_bpm_interface
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_bpm_pkt_gen
+# -- Compiling architecture struct of ibfb_bpm_pkt_gen
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package txt_util
+# -- Compiling package body txt_util
+# -- Loading package txt_util
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package txt_util
+# -- Loading package VCOMPONENTS
+# -- Loading package virtex5_gtx_package
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_packet_router_tb
+# -- Compiling architecture test of ibfb_packet_router_tb
+# -- Compiling entity adc_data_gen
+# -- Compiling architecture behav of adc_data_gen
+# -- Compiling entity xfpga_link_emulator
+# -- Compiling architecture test of xfpga_link_emulator
+# -- Compiling entity ibfb_bpm_emulator
+# -- Compiling architecture test of ibfb_bpm_emulator
+# -- Loading entity ibfb_packet_router
+# -- Compiling entity throughput_meter
+# -- Compiling architecture behav of throughput_meter
+# vsim -gui -t ps -novopt work.ibfb_packet_router_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.txt_util(body)
+# Loading unisim.vcomponents
+# Loading work.virtex5_gtx_package
+# Loading work.ibfb_comm_package
+# Loading work.ibfb_packet_router_tb(test)
+# Loading work.ibfb_bpm_emulator(test)
+# Loading work.adc_data_gen(behav)
+# Loading work.throughput_meter(behav)
+# Loading ibfb_common_v1_00_a.virtex5_gtx_package
+# Loading ibfb_common_v1_00_a.ibfb_comm_package
+# Loading work.ibfb_bpm_pkt_gen(struct)
+# Loading work.cav_bpm_interface(rtl)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.fifo36(fifo36_v)
+# Loading ieee.std_logic_arith(body)
+# Loading unisim.afifo36_internal(afifo36_internal_v)
+# Loading ibfb_common_v1_00_a.pkg_crc
+# Loading ibfb_common_v1_00_a.ibfb_packet_tx(rtl)
+# Loading ibfb_common_v1_00_a.crc8_in32(imp_crc)
+# Loading work.ibfb_packet_router(no_pkt_buf)
+# Loading work.xfpga_link_emulator(test)
+# Loading work.pkg_crc
+# Loading work.ibfb_packet_rx(rtl)
+# Loading work.crc8_in32(imp_crc)
+# hexadecimal
+run 1 ms
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM3_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM3_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM2_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM2_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM1_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM1_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM0_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM0_EMU/PKT_GEN/PKT_TX
+# ** Error: BACKPLANE TX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: BACKPLANE TX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: BACKPLANE RX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: BACKPLANE RX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: XFPGA TX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: XFPGA TX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: XFPGA RX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: XFPGA RX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: DOWNSTREAM RX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: DOWNSTREAM RX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: UPSTREAM RX FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: UPSTREAM RX FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: PKT FIFO UNDERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Error: PKT FIFO OVERFLOW
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_router_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM0_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM1_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM2_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_router_tb/BPM3_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/DOWNSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_router_tb/UPSTREAM_RX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 2  Instance: /ibfb_packet_router_tb/BPM0_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 2  Instance: /ibfb_packet_router_tb/BPM1_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 2  Instance: /ibfb_packet_router_tb/BPM2_EMU/PKT_GEN/PKT_TX
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 2  Instance: /ibfb_packet_router_tb/BPM3_EMU/PKT_GEN/PKT_TX
+# Break key hit 
+# Break in ForLoop loop at C:/Xilinx/14.7/ISE_DS/ISE/vhdl/src/unisims/unisim_VPKG.vhd line 727

@@ -1,0 +1,24 @@
+#------------------------------------------------------------------------------
+#--                       Paul Scherrer Institute (PSI)
+#------------------------------------------------------------------------------
+#-- Unit    : ibfb_bpm_router_v_1_00_a.pao
+#-- Author  : Alessandro Malatesta, Section Diagnostic
+#-- Version : $Revision: 1.1 $
+#------------------------------------------------------------------------------
+#-- Copyright© PSI, Section Diagnostic
+#------------------------------------------------------------------------------
+#-- Comment : 
+#------------------------------------------------------------------------------
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_burst_v1_01_a  all 
+lib ibfb_common_v1_00_a all
+
+##------- Virtex-5 technology library -----------------------------------------
+lib fpga_technology_package_virtex5_v1_00_a fpga_technology_package_virtex5.vhd vhdl
+
+##------- Virtex-5 GTX library ------------------------------------------------
+lib ibfb_bpm_router_v1_00_a user_logic.vhd
+lib ibfb_bpm_router_v1_00_a cav_bpm_interface.vhd
+lib ibfb_bpm_router_v1_00_a ibfb_bpm_pkt_gen.vhd
+lib ibfb_bpm_router_v1_00_a ibfb_bpm_router.vhd
